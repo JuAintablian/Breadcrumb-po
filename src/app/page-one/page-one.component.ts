@@ -2,14 +2,11 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-page-one',
-  templateUrl: './page-one.component.html',
-  styleUrls: ['./page-one.component.css']
+  template: '<p>page 1 works</p>',
+  styleUrls: ['./page-one.component.css'],
 })
 export class PageOneComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit() {
-  }
-
+  ngOnInit() {}
 }

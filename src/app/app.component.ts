@@ -13,7 +13,6 @@ export class AppComponent {
   constructor(private router: Router) {
     this.breadcrumbItens = [
       { label: 'início', action: () => this.navigateToBeginning() },
-      { label: 'início', link: `/page-0/` },
       {
         label: `cliente: NOME DO CLIENTE MAIS LONGO`,
         link: `/page-1/`,
